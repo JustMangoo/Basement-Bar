@@ -70,7 +70,7 @@ h1 span {
   width: 445px;
   min-height: 100vh;
   height: 100%;
-  padding: 40px 18px 32px;
+  padding: 40px 24px 32px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -82,7 +82,7 @@ h1 span {
   display: flex;
   width: 445px;
   height: 100vh;
-  padding: 40px 18px 32px;
+  padding: 40px 24px 32px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -327,6 +327,53 @@ main {
   width: 66px;
   height: 28.875px;
   flex-shrink: 0;
+}
+
+/* ---- BOOKING ---- */
+
+.booking-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.booking-wrapper p {
+  color: var(--primary-color-light);
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.booking-wrapper p span {
+  color: var(--light-color);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.booking-wrapper .image-heading {
+  align-self: stretch;
+  color: var(--secondary-color);
+  font-family: "Roboto Mono", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 32px 0 18px;
+  position: relative;
+  text-align: center;
+}
+
+.bar-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.bar-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
 
 /* ---- FOOTER ---- */
