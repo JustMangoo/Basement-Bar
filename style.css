@@ -196,20 +196,17 @@ main {
   align-self: stretch;
   cursor: pointer;
   transition: 0.2s ease-in-out;
-}
-
-.primary-button:hover {
-  background-color: var(--primary-color);
-  box-shadow: 0 0 10px 0px var(--primary-color);
-}
-
-.primary-button p {
   color: var(--light-color);
   text-align: center;
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.primary-button:hover {
+  background-color: var(--primary-color);
+  box-shadow: 0 0 10px 0px var(--primary-color);
 }
 
 /* ---- MENU ---- */
