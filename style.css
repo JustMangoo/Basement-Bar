@@ -162,6 +162,23 @@ main {
   cursor: pointer;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--primary-color);
+  z-index: 100;
+  aspect-ratio: 1/1;
+  padding: 8px;
+  border-radius: 50%;
+  opacity: 50%;
+}
+
+.back-to-top img {
+  width: 30px;
+  height: auto;
+}
+
 /* ---- FRONT PAGE ---- */
 
 .primary-button {
