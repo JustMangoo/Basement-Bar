@@ -8,6 +8,17 @@
   </head>
   <body>
     <div class="wrapper">
+      <div class="action-buttons"></div>
+        <button onclick="history.back()" class="back-button">
+          <img src="Images/back-button.png" alt="" />
+        </button>
+        <img
+          src="Images/DK-flag.png"
+          alt="Button for the language change"
+          class="language-change"
+        />
+      </div>
+
       <header>
         <h1 id="main-heading">
           BOOK<br />
@@ -30,6 +41,7 @@
             football, beer pong or shuffleboard.<br /><br />
             <span>We look forward to seeing you!</span>
           </p>
+          <a href="" class="primary-button"><p>Book the basement NOW!</p></a>
           <h2 class="image-heading">Basement vibes</h2>
           <div class="bar-images">
             <img src="Images/the-bar-drinks.jpeg" alt="" />
@@ -81,6 +93,8 @@
                 name="number"
                 id="number"
                 placeholder="Amount of planned guests"
+                max="150"
+                min="1"
               />
             </div>
             <button type="submit" class="primary-button">

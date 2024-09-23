@@ -47,6 +47,10 @@ body {
   color: var(--primary-color-light);
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 /* ---- OVERALL STYLES ---- */
 
 h1 {
@@ -126,6 +130,36 @@ main {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+/* ---- ACTION BUTTONS ---- */
+
+.action-buttons {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.action-buttons .back-button {
+  border: none;
+  background-color: #ffffff85;
+  border-radius: 0 50px 50px 0;
+  padding: 0 12px 0 6px;
+  cursor: pointer;
+}
+
+.action-buttons .back-button img {
+  width: 50px;
+  height: auto;
+}
+
+.action-buttons .language-change {
+  aspect-ratio: 1/1;
+  width: 60px;
+  cursor: pointer;
 }
 
 /* ---- FRONT PAGE ---- */
@@ -349,6 +383,7 @@ main {
   font-family: "Roboto Mono";
   font-size: 16px;
   font-weight: 400;
+  padding-bottom: 32px;
 }
 
 .booking-wrapper .about-bar span {
