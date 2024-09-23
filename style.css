@@ -165,7 +165,7 @@ main {
 
 .back-to-top {
   position: fixed;
-  bottom: 20px;
+  bottom: 160px;
   right: 20px;
   background-color: var(--primary-color);
   z-index: 100;
